@@ -7,6 +7,13 @@ application/cache/*
 application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess
+=======
+*/config/development
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
 
 user_guide_src/build/*
 user_guide_src/cilexer/build/*
@@ -25,3 +32,10 @@ database.php
 *.stTheme.cache
 *.sublime-workspace
 *.sublime-project
+=======
+
+#codeigniter 3
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+/vendor/
